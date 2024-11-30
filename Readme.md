@@ -18,7 +18,7 @@ The application uses Node.js and Express for the backend and provides a responsi
 6. Fast & Efficient: Quick response times with no unnecessary database or storage.
 .
 
-## Screenshots
+## Snapshot of QRVault Interface
 
 ![QRVault](public/icons/QRVault.png)
 
