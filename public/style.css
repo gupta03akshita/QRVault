@@ -1,0 +1,94 @@
+/* EXTERNAL CSS FILE */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.container {
+    text-align: center;
+    background-color: #e3dfdf96;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 1px solid #67676731;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+.sub-heading {
+    letter-spacing: 1px;
+    ;
+    font-size: 14px;
+    color: #282828;
+    margin-bottom: 20px;
+}
+
+#qr-text {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#generate-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #010101;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#generate-btn:hover {
+    background-color: #333;
+}
+
+#qr-code {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qr-code img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#qr-code p {
+    font-size: 14px;
+    color: #666;
+}
